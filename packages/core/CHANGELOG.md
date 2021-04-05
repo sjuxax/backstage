@@ -1,5 +1,15 @@
 # @backstage/core
 
+## 0.7.4
+
+### Patch Changes
+
+- 4a4681b1b: Improved error messaging for routable extension errors, making it easier to identify the component and mount point that caused the error.
+- b051e770c: Fixed a bug with `useRouteRef` where navigating from routes beneath a mount point would often fail.
+- Updated dependencies [4a4681b1b]
+- Updated dependencies [b051e770c]
+  - @backstage/core-api@0.2.16
+
 ## 0.7.3
 
 ### Patch Changes

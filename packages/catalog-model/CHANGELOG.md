@@ -1,5 +1,11 @@
 # @backstage/catalog-model
 
+## 0.7.6
+
+### Patch Changes
+
+- 97b60de98: Added `stringifyEntityRef`, which always creates a string representation of an entity reference. Also deprecated `serializeEntityRef`, as `stringifyEntityRef` should be used instead.
+
 ## 0.7.5
 
 ### Patch Changes
